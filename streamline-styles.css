@@ -416,7 +416,7 @@ footer#page-footer h1 {
 footer#page-footer ul#footer-contactInfo {
 	color:#737373;
 	color: rgba(115, 115, 115, 1);
-	width:20%;
+	/*width:20%;*/
 	float:left;
 	font-size:1.3em;
 	margin:0 2.5% 0 2.5%;
@@ -436,6 +436,7 @@ footer#page-footer ul#footer-contactInfo li#footer-phone {
 
 footer#page-footer ul#footer-contactInfo li.footer-social {
 	margin:1em 0 0 0;
+	float:left;
 }
 
 footer#page-footer ul#footer-contactInfo li.footer-social a {
