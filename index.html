@@ -143,31 +143,9 @@
         <li class="footer-social"><a href="http://www.linkedin.com/pub/dominic-aiello/10/818/b17/" title="Streamline Engineering on Linked In">LinkedIn</a></li>
       </ul>
       
-      <div id="footer-form">
+      <div id="footer">
               </ul>
               <p id="success" class="<?php echo ($sr && $cf['form_ok']) ? 'visible' : ''; ?>">Thanks for your message! We will get back to you ASAP!</p>
-        
-      <form method="post" action="verify.php" id="contact-form">
-        <fieldset>
-        <label for="name">Your Name:</label>
-        <input type="text" name="name" id="name" placeholder="Name" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['name'] : '' ?>" />
-        </fieldset>
-
-        <fieldset>
-          <label for="email">Your Email:</label>
-          <input type="email" name="email" id="email" placeholder="Email" value="<?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['email'] : '' ?>" />
-        </fieldset>
-
-        <fieldset id="footer-message">
-          <label for="message">Your Message:</label>
-          <textarea name="message" id="message" placeholder="Message" data-minlength="20"><?php echo ($sr && !$cf['form_ok']) ? $cf['posted_form_data']['message'] : '' ?></textarea>
-        </fieldset>
-
-        <fieldset>
-          <input type="submit" id="submit-button" value="Send!">
-        </fieldset>
-      </form>
-      
       </div>  
     </footer>
 <!-- END FOOTER --> 
